@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="main_content">
+        <div id="score_container" style="font-size: 20px; display: inline-block;">SCORE :
+            <div id="score" style="font-size: 20px; display: inline;">0</div>
+        </div>
+        <div id="game_over" style="display:inline-block; font-size:20px; margin-left: 250px; font-weight:bold;"></div>
+        <div id="r_h_s" style="margin-top: 10px;">
+            <div id="play_again_btn" style="display: inline-block;"><button id="play_again"
+                    style="color: white;border: none; padding: 4px 10px; font-weight:bold; background-color: #285e9e; border-radius: 2px; cursor:pointer; margin-bottom: 10px;"
+                    onclick="game_area.start()">Restart</button></div>
+            <div id="high-scores" style="display: inline-block; margin-left: 50px; font-weight: bold;"></div>
+        </div>
+        <canvas id="snakes" height="570px" width="800px" style="border: 2px solid black"></canvas>
+        <script src="app.js"></script>
+    </div>
+
+</body>
+
+</html>
