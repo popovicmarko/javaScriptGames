@@ -1,4 +1,4 @@
-let playerState = "sit";
+let playerState = "sit"
 const dropDown = document.getElementById('animations');
 dropDown.addEventListener('change', function (e) {
     playerState = e.target.value;
