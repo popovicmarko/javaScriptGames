@@ -70,7 +70,7 @@ nimationState.forEach((state, index) => {
     for (let j = 0; j < state.frames; j++) {
         let positionx = j * spriteWidth;
         let paositiony = index * spriteheight;
-        frames.loc.push({ x: positionx, y: positiony });
+        frames.loc.push({ x: positionx, y: positiony })
     }
     spriteAnimation[state.name] = frames;
 });
